@@ -30,7 +30,7 @@ export default function App() {
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm">Email</label>
+            <label className="block text-gray-700 text-sm">Emailcorreto</label>
             <input
               {...register("name", {
                 required: true,
